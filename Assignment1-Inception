@@ -1,0 +1,27 @@
+1)what is Emmet?
+Emmet is free add-on on text-editors that means type shortcuts and get expanded to full piece of code.
+It saves time and keystrokes. 
+Improves productivity.
+makes work super speedy and more efficient.
+
+2) Difference between library and framework?
+Framework:
+1)A Framework controls calling of libraries for our code.
+2)Provides ready to use tools,standard templates and policy for fast application development.
+3)Intent of framework is reduce the complexity of software development process.
+4)easy to create and deploy.
+
+Library:
+1)Our Code controls when and where to call a library.
+2)Provides reusable function for our code.
+3)Intent here is to reuse software functionality.
+4) facilates program binding.
+
+3) what is cdn ? why do we use it?
+A content delivery network - group of servers spread over many locations
+These servers store duplicate data so when request arrives they respond with the user who are respectively nearby.
+it makes fast services less affected by high traffic.
+
+we use it to reduce web performances by reducing time to send content and rich end to end users.
+
+4) why is React known as React?
