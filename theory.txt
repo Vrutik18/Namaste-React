@@ -1,0 +1,53 @@
+● - What is `NPM`?
+npm does not stand for node package manager.
+It is used as a package manager to manage bundlers(vite,webpack,parcel).
+we cannot build our app without npm.
+parcels (minifying code , clean console) comes under npm.
+
+2) What is `Parcel/Webpack`? Why do we need it?
+
+Parcel / webpack is a package(module) of JS files(some piece of code)
+Parcel / webpack are bundlers used to minify code ,clean console so when a request is send to a server so it returns the response faster. we need it because of faster development experience.
+
+3)- What is `.parcel-cache`
+parcel-cache is a space taken by parcel during production of our app.
+This are binary files.
+one can create this files again after deletion with a command npm run build
+
+4)● - What is `npx` ?
+npx means executing using npm
+not installing globally . 
+can only execute for a specified files.
+
+5)● - What is difference between `dependencies` vs `devDependencies`
+dependencies are the packages that our project needs to function effectively.
+npm install <package_name> to add dependency cmd.
+It is required when we run code.
+
+devDependencies are the packages that a developer needs during development.
+npm install <package_name> --save-dev to add dependency cmd.
+It is required at some point during development but not during execution.
+
+6)- What is Tree Shaking?
+Treee shaking describes THE REMOVAL OF DEAD CODE within a js context.
+while using bundlers(webpack,parcel etc) automatically removes dead code while bundling MULTIPLE JS FILES INTO A SINGLE FILES to make a production ready.
+makes clean structure and minifies code.
+
+7)what is hot module Replacement?
+It improves the development experience by automatically updating modules in the browser at a runtime without even reloading a full page.
+application state is retained as we make small changes.
+
+8)- List down your favourite 5 superpowers of Parcel and describe any 3 of them in your
+own words.
+
+1)HR: It is by-default fully reloads the page and updates the code in browser.Sometimes it performs HMR is Hot Module Replacement it improves development experience by updating a module in browsers at runtime without needing a whole page refresh.
+example of HMR is css changes are applied using HMR no full page reload is required.
+2)File Watcher Algorithm : whatever we changes in our code in any files it gets automatically changed bcz it keeps track in real-time and tell server reload.it is written in c++.
+3)Bundling it minify our code while production.In a file where our code is compressed and ready for production.
+4)Image optimization.
+5)cleaning our code.
+6)Tree shaking.
+
+
+
+
